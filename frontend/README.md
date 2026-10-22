@@ -1,16 +1,194 @@
-# React + Vite
+# \# IT-Helpdesk-Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 
 
-Currently, two official plugins are available:
+# A web-based IT Helpdesk Ticket Management System built to organize, track, and manage IT support requests through a clean and user-friendly dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 
 
-## React Compiler
+# \## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 
 
-## Expanding the Oxlint configuration
+# \- Create and manage IT support tickets
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# \- View ticket information in a dashboard
+
+# \- Search and filter support tickets
+
+# \- Update ticket statuses
+
+# \- Delete tickets when required
+
+# \- View ticket statistics
+
+# \- Store ticket information using SQLite
+
+# 
+
+# \## Technologies Used
+
+# 
+
+# \*\*Frontend\*\*
+
+# \- React
+
+# \- Vite
+
+# \- JavaScript
+
+# \- CSS
+
+# 
+
+# \*\*Backend\*\*
+
+# \- Python
+
+# \- FastAPI
+
+# \- SQLite
+
+# 
+
+# \## Project Structure
+
+# 
+
+# ```text
+
+# IT-Helpdesk-Pro/
+
+# ├── backend/
+
+# │   ├── main.py
+
+# │   ├── database.py
+
+# │   └── requirements.txt
+
+# ├── frontend/
+
+# │   ├── src/
+
+# │   ├── public/
+
+# │   ├── package.json
+
+# │   └── vite.config.js
+
+# └── .gitignore
+
+# ```
+
+# 
+
+# \## Getting Started
+
+# 
+
+# \### Prerequisites
+
+# 
+
+# \- Python
+
+# \- Node.js and npm
+
+# 
+
+# \### 1. Clone the repository
+
+# 
+
+# ```bash
+
+# git clone https://github.com/Saviru-0087/IT-Helpdesk-Pro.git
+
+# cd IT-Helpdesk-Pro
+
+# ```
+
+# 
+
+# \### 2. Set up the backend
+
+# 
+
+# ```powershell
+
+# cd backend
+
+# python -m venv .venv
+
+# .\\.venv\\Scripts\\Activate.ps1
+
+# pip install -r requirements.txt
+
+# python -m uvicorn main:app --reload --port 8000
+
+# ```
+
+# 
+
+# The backend API will be available at `http://127.0.0.1:8000`.
+
+# 
+
+# API documentation: `http://127.0.0.1:8000/docs`
+
+# 
+
+# \### 3. Set up the frontend
+
+# 
+
+# Open a second terminal from the project root:
+
+# 
+
+# ```powershell
+
+# cd frontend
+
+# npm install
+
+# npm run dev
+
+# ```
+
+# 
+
+# Open the local URL displayed by Vite in your terminal.
+
+# 
+
+# \## Learning Objectives
+
+# 
+
+# This project demonstrates practical experience with frontend development, REST API integration, backend development, database operations, and Git-based version control.
+
+# 
+
+# \## Author
+
+# 
+
+# \*\*Saviru Kumarasiri\*\*
+
+# 
+
+# GitHub: \[Saviru-0087](https://github.com/Saviru-0087)
+
+# 
+
+# \## License
+
+# 
+
+# This project is available for learning and portfolio demonstration.
+
+
+
